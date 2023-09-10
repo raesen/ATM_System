@@ -139,29 +139,7 @@ void play(int a)
 	PlaySound(TEXT("mix.wav"), NULL, SND_SYNC);	
 	if(a==4)
 	PlaySound(TEXT("thank_you.wav"), NULL, SND_SYNC);
-	
-	
-	/*
-	
-	for a program withou audio is very simple (not effective)
-	
-	1.It doesn't require to create a project.dev file, simply run as a normal hello world program
-	2.No specific sytem requirement as the re will be no differet project.dev files
-	3.No need of adding linker "-lwinmm" so these can be a simple .cpp file
-	4.Because of adding these linker we have created a project file so now its not required
-	5.No 32-Bit No 64-Bit (can run any where).
-	
-	for  converting this to normal
-	
-	1.keep the pointer at atarting of program and press ctrl+F
-	2.Find for keyword " play "
-	3.Comment all where itoccurs or delete that code
-	4.Remove "MMSystem.h" header 
-	5.Open a new cpp program file (not project) and copy all these to there.
-	6.Create a folder and copy "transactions.txt,accounts.txt,atm_users.txt.
-	7.Save these newly created cpp file to that folder and run.
-	
-	*/	
+		
 }
 
 void scroll_note()	//welcome note
@@ -262,10 +240,6 @@ void machine::sub_menu()	//after user login the following fuctions are displayed
 	system("cls");
 
 	int cpin;
-	
-	
-	
-
 	machine r;
 	r=login_check();
 	fclose(fg);
