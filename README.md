@@ -1,4 +1,5 @@
 # ATM_System
+This C++ program offers a comprehensive banking system with audio guidance support. It's designed to facilitate various banking operations, including cash deposit, withdrawal, PIN change, and money transfer. The program is built using Object-Oriented Programming (OOP) principles, emphasizing encapsulation and abstraction for a well-structured and maintainable codebase.
 
 ![Screenshot 2023-09-10 104216](https://github.com/raesen/ATM_System/assets/81528196/0a179d1c-b46e-4858-815e-91fae63870fb)
 ![Screenshot 2023-09-10 104335](https://github.com/raesen/ATM_System/assets/81528196/bb003b92-eab0-43aa-85ff-6ef6442f4dd6)
