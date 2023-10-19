@@ -1,5 +1,5 @@
-536200 1212 rohith vutnoor 4320 
-536201 1997 lok bodla 1200 
+536200 1212 gangaram 4320 
+536201 1997 shyam lal 1200 
 536202 1234 sai charan 1600 
 536203 6235 rahul raj 1000 
 536204 6235 durga prasad 1800 
