@@ -541,7 +541,7 @@ void machine:: cash_deposit(machine r)	//argument object recieved from login_che
 
 	//transacton APPENDING to transactions file
 	machine a;
-	f1=fopen("transactions.txt","a");
+	f1=fopen("transactions.txt","a");           // file open in append mode
 	fprintf(f1,"%s %s %d %d %d %d %d %d %d %d %d \n",g.acno,g.fname,g.prev,g.adl,g.amt,g.day,g.month,g.year,g.hour,g.min,g.sec);
 	fclose(f1);
 	
